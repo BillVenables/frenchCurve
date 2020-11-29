@@ -1,12 +1,13 @@
 Package: frenchCurve
 Type: Package
 Title: Generate Open or Closed Interpolating Curves 
-Version: 0.1.3
+Version: 0.1.4
 Author: Bill Venables
 Maintainer: Bill Venables <Bill.Venables@gmail.com>
 Description: Functions for finding smooth interpolating curves connecting
     a series of points in the plane.  Curves may be open or closed,
-    that is, with the first and last point of the curve at the initial point.
+    that is, with the final point identical to the initial point
+    of the defining point set.
 License: GPL-2
 Imports: graphics, stats, sp
 Depends: grDevices
